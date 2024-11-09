@@ -1,0 +1,152 @@
+/* coonfiguração da barra de navegação */
+.navbar{
+    position:fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: gray;
+    float: left;
+    overflow: hidden;
+    height: 10%;
+    width: 100%;
+}
+/* configuracao da escrita e do link da barra */
+.navbar a{
+    text-decoration: none;
+    float: left;
+    padding: 1%;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+/* estilização do fundo da parte da navegação */
+.navbar a:hover{
+    background-color:black;
+    color:white;
+}
+/* retirar os pontos do link */
+ul{
+    list-style-type: none;
+}
+/* primeiira caixa */
+#caixa1{
+    float: left;
+    height: 15%;
+    width: 50%;
+    background-color: dimgrey;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 8%;
+}
+/* configuração dos titulos em geral */
+.titulo{
+    text-align: center;
+    color: aliceblue;
+}
+/* alinhamento do titulo da parte SOBRE */
+.titulo1{
+    text-align: center;
+    font-size: large;
+}
+/* ajuste dos paragrafos */
+.parg{
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/* ajuste de  todas a outras caixas */
+.caixa{
+    float: left;
+    height: 15%;
+    width: 50%;
+    background-color: dimgrey;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 3%;
+    margin-left: 8%;
+    position: relative;
+}
+/* alinhamento da foto */
+.foto{
+    float: right;
+    height: 40%;
+    width: 35%;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+/* enquadramento da DIV sobre */
+#Sobre{
+    float: left;
+    height: 15%;
+    width: 50%;
+    background-color: dimgrey;
+    border-radius: 25px;
+    padding: 30px;
+    margin-top: 3%;
+    margin-left: 8%;
+}  
+/* }ajustes do botao */
+#botao{
+    padding: 30px;
+    float: left;
+    color:rgb(5, 5, 5);
+    background-color: dimgrey;
+}
+/* mudar de cor ao passar o cursor do mouse em cima */
+#botao:hover{
+    background-color: black;
+    color: white;
+}
+/* rodape da pagina */
+.rodape{
+    background-color: dimgrey;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    float: left;
+    position:relative;
+    width: 98%;
+    overflow-block:hidden;
+    height: 90px;
+    margin-top: 20px;
+}
+/* texto do rodape */
+.parg1{
+    color: black;
+}
+.parg1 a{
+    text-decoration: none;
+    color: black;
+}
+/* configuracao do botao */
+#pag2{
+    float: right;
+    bottom: 0;
+    margin-right: 25px;
+}
+/* ajustes do formulario */
+.formulario{
+    background-color: rgba(128, 128, 128, 0.37);
+    border: 3px solid black;
+    height: 20%;
+    width:45%;
+    padding: 30px;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: 15%;
+}
+/* botao do formulario */
+#aperte{
+    background-color: green;
+    align-items: center;
+    color:white;
+}
+.cadastro{
+    margin-left: 40%;
+    margin-top: 15%;
+}
+.correto{
+    height: 25%;
+    width: 25%;
+    
+}

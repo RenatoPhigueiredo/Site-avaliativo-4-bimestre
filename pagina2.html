@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulario">
+    <!-- formulario -->
+      <form>
+        <div class="form-row align-items-center">
+            <div class="col-auto">
+            <label class="sr-only" for="inlineFormInput">Nome</label>
+            <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Escreva seu Nome">
+          </div>
+          <br>
+          <div class="col-auto">
+            <label class="sr-only" for="inlineFormInputGroup">Usuário</label>
+            <div class="input-group mb-2">
+              <div class="input-group-prepend">
+                <div class="input-group-text">@</div>
+              </div>
+              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="=Coloque seu Gmail ">
+            </div>
+          </div>
+          <br>
+          <div class="form-row align-items-center">
+            <div class="col-auto my-1">
+              <label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">O que tem a declara sobre a IA nas nossas vidas</label>
+              <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                <option selected>O que você acha da IA...</option>
+                <option value="1">Boa,útil para as tarefas</option>
+                <option value="2">Não,tem desfocado as pesssoas do livros</option>
+                <option value="3">Nada a declarar</option>
+              </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="formGroupExampleInput">Deixe aqui seu ponto de vista</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="escreva aqui o que voce tem em mente">
+            </div>
+        </div>
+        </div>
+      </form>
+      <button id="aperte">Success</button>
+    </div>
+
+
+    <!-- comando para enviar para a tela de concluido -->
+    <script>
+        document.getElementById("aperte").onclick=function() {
+            window.location.href="concluido.html"}
+    </script>
+
+
+</body>
+</html>
